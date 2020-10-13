@@ -1,0 +1,38 @@
+css
+
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: yellow;
+	width: 100%
+}
+tr, th, td{
+	border: 1px solid black;
+	padding: 100px;
+	text-align: center;
+}
+th:nth-child(1){
+	background-color: gray;
+}
+
+th:nth-child(2){
+	background-color: black;
+}
+th:nth-child(3){
+	background-color: blue;
+}
+td:nth-child(2){
+	background-color: green;
+}
+td:nth-child(1){
+	background-color: red;
+}
+
+td.blue{
+	background-color:blue;
+}
+
+
+
+
